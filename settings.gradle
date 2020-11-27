@@ -1,3 +1,4 @@
+include ':myapplication3'
 include ':myapplication'
 include ':app'
 rootProject.name = "JSONLolita"

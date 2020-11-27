@@ -20,7 +20,7 @@ public class MainActivity2 extends AppCompatActivity {
         TextView JsonMySiteTextView = (TextView) findViewById(R.id.tv4);
         TextView JsonUrlTextView = (TextView) findViewById(R.id.tv5);
         TextView JsonArrayTextView = (TextView) findViewById(R.id.tv6);
-        String json_source = getString(R.string.oooooooo);
+        String json_source = getString(R.string.simple_json);
 
         // выводим сырые данные без обработки
         JsonSrcTextView.setText(json_source);
